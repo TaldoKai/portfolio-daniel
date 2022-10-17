@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTE DO GOOGLE FONTS AQUI -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <title>Mini Portfólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="src/imagens/imagem-perfil.jpg" alt="foto de perfil" width="96px" height="96px">
+            <h1 class="nome">Daniel Somensi Berrido</h1>
+            <h2 class="cargo">Desenvolvedor em treinamento</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/imagens/sobre.gif" alt="ícone sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Olá! Meu nome é Daniel, seja bem-vindo(a)!</p>
+
+                        <p>Já possuo uma boa experiência no mercado de trabalho, atualmente estou estudando <span>HTML, CSS e JavaScript</span> para me aprofundar na área de tecnologia e desenvolvimento, aprendo com muita facilidade! Também gosto muito do urban style, música e games.</p>
+                    </div>
+                </div>
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas redes</h3>
+                    
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://docs.google.com/document/d/16KElGzx6Ur0DJERLxZL7YB-3KTkUQINZM5eN-ta1Gmc/edit?usp=sharing" target="_blank" class="curriculo">Currículo</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/daniel-somensi-berrido-526b57140/" target="_blank" class="linkedin">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/somensi_daniel/" target="_blank" class="instagram">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
